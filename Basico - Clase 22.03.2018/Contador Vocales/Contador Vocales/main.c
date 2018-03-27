@@ -15,30 +15,7 @@ int main()
     }while(strlen(caracteres)!=10);
 
     for(i=0;i<=LONG_CARAC-1;i++){
-        switch(caracteres[i]){
-            case 'A':
-            case 'a':
-                cont_A++;
-                break;
-            case 'E':
-            case 'e':
-                cont_E++;
-                break;
-            case 'I':
-            case 'i':
-                cont_I++;
-                break;
-            case 'O':
-            case 'o':
-                cont_O++;
-                break;
-            case 'U':
-            case 'u':
-                cont_U++;
-                break;
-        }
-
-        /*if(caracteres[i]=='A')
+        if(caracteres[i]=='A')
             cont_A++;
         else if(caracteres[i]=='E')
             cont_E++;
@@ -47,7 +24,7 @@ int main()
         else if(caracteres[i]=='O')
             cont_O++;
         else if(caracteres[i]=='U')
-            cont_U++;*/
+            cont_U++;
     }
 
     printf("Cantidad de vocales ingresadas:\n");
