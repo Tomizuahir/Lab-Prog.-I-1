@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1522115150 source:c:\users\ezequiel\ejercicios\lab-prog.-i\basico - clase 22.03.2018\contador vocales\contador vocales\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
