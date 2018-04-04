@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1522802094 source:d:\ejercicios\ejemplo bibliotecas\calculadora.c
+
+1522803725 source:d:\ejercicios\ejemplo bibliotecas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"calculadora.h"
+
+1522803725 d:\ejercicios\ejemplo bibliotecas\calculadora.h
+
